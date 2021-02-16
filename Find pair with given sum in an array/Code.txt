@@ -27,3 +27,4 @@ class Code
 	    return count;
 	}
 } // Contributed by Amresh Ranjan
+// O(N*N).
