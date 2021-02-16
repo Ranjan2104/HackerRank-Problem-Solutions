@@ -21,7 +21,9 @@ class Code
 	        if(arr[start] + arr[end] == sum) {
 	            System.out.println("Pair found");
 	            return;
-	        }
+	        } else {
+			  System.out.println("Pair not found");
+			}
 	        start++;
 	        end--;
 	    }
