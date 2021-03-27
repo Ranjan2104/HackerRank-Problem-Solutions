@@ -9,4 +9,4 @@ public class Solution {
         }
         return sum;
     }
-// Contributed by Amresh Ranjan.
+// Contributed by Amresh Ranjan
