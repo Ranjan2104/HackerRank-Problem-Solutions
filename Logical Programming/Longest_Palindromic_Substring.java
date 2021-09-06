@@ -1,10 +1,12 @@
 package Daffodils_Unthinkable_Solution;
-
+import java.util.*;
 public class Longest_Palindromic_Substring {
 
 	public static void main(String[] args) {
-		String s = "cbbd";
-		System.out.println(longestPalindrome(s));
+		try (Scanner sc = new Scanner(System.in)) {
+			String s = sc.next();
+			System.out.println(longestPalindrome(s));
+		}
 	}
 	static String longestPalindrome(String s) {
         int start = 0, end = 0;
