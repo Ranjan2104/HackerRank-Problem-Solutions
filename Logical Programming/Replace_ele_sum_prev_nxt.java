@@ -1,12 +1,18 @@
 package Daffodils_Unthinkable_Solution;
 
+import java.util.Scanner;
+
 public class Replace_ele_sum_prev_nxt {
 
 	public static void main(String[] args) {
-		int[] arr = {2, 3, 4, 5, 6}; int n = arr.length;
-		replace(arr, n);
-		for(int i = 0; i < arr.length; i++) 
-			System.out.print(arr[i] + " ");
+		try (Scanner sc = new Scanner(System.in)) {
+			int m = sc.nextInt();
+			int[] arr = new int[m]; int n = arr.length;
+			for(int i = 0; i < arr.length; i++) arr[i] = sc.nextInt();
+			replace(arr, n);
+			for(int i = 0; i < arr.length; i++) 
+				System.out.print(arr[i] + " ");
+		}
 	}
 	static void replace(int[] arr, int n) {
 		int prev = arr[0];

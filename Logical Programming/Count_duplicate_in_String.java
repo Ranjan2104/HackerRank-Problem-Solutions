@@ -4,7 +4,8 @@ import java.util.*;
 public class Count_duplicate_in_String {
 
 	public static void main(String[] args) {
-		String s = "aabb";
+		Scanner sc = new Scanner(System.in);
+		String s = sc.next();
 		System.out.println(count(s));
 	}
 	static int count(String s) {

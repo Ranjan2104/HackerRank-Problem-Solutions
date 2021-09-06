@@ -1,12 +1,13 @@
 package Daffodils_Unthinkable_Solution;
-
+import java.util.*;
 public class One_extra_character_in_string {
 
 	public static void main(String[] args) {
-		String strA = "kxml";
-	    String strB = "klxml";
-	    
-	    System.out.println(findCharcter(strA.toCharArray(), strB.toCharArray()));
+		try (Scanner sc = new Scanner(System.in)) {
+			String strA = sc.next();
+			String strB = sc.next();
+			System.out.println(findCharcter(strA.toCharArray(), strB.toCharArray()));
+		}
 	}
 	static char findCharcter(char []strA, char[] strB)
 	{

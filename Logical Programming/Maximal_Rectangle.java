@@ -28,7 +28,6 @@ public class Maximal_Rectangle {
 				maxArea = area;
 			}
 		}
-
 		return maxArea;
 	}
 	static int maxAreaInHist(int[] height) {
